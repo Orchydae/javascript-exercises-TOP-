@@ -1,10 +1,7 @@
 let repeatString = function(string, number) {
     repeatString = '';
     string = string.toString();
-    if (string === '') {
-        return '';
-    }
-    
+
     if (number < 0) {
         return 'ERROR';
     } else {
