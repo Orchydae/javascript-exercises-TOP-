@@ -21,7 +21,8 @@
     "jest-cli": "^29.6.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node --inspect 03_reverseString/reverseString.js"
   },
   "eslintConfig": {
     "root": true
